@@ -1,4 +1,4 @@
-#!/bin/expect -f
+#!/bin/expect -f  
 set 1 [lindex $argv 0]
 set 2 [lindex $argv 1]
 set timeout 60
