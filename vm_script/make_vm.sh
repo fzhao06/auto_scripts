@@ -7,6 +7,6 @@ virt-install --name=felix$1 \
 --os-variant centos7.0 \
 --initrd-inject=gen_ks1.cfg \
 --extra-args "ks=file:/gen_ks1.cfg console=tty0 console=ttyS0,115200"
-#-x 'console=ttyS0,115200n8 serial' \
+#-x 'console=ttyS0,115200n8 serial' \ 
 #-x "ks=file:~/gen_ks.cfg"
 exit 0
